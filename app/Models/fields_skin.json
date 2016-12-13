@@ -1,0 +1,9 @@
+[
+    {
+        "name": "title",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required",
+        "searchable": true
+    }    
+]
