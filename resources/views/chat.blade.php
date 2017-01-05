@@ -59,17 +59,12 @@
                 <div><img src="quickblox/images/ajax-loader.gif" class="load-msg"></div>
                 <form class="form-inline" role="form" method="POST" action="" onsubmit="clickSendMessage(); return false">
                   <div class="input-group">
-                    <span class="input-group-btn input-group-btn_change_load">
-  	                  <input id="load-img" type="file">
-  	                <button type="button" id="attach_btn" class="btn btn-default" onclick="$('#load-img').click();">
-  		              <i class="icon-photo"></i>
-  	                </button>
-                    </span>                    
+                                      
 
                     <span class="input-group-btn" style="width: 100%;">
   	                 <input type="text" class="form-control" id="message_text" placeholder="Enter message">
                     </span>
-                    </div>
+                  </div>
                   <img src="quickblox/images/ajax-loader.gif" id="progress">
                 </form>
               </div>
