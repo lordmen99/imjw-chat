@@ -3,11 +3,6 @@ var opponentId;
 
 var dialogsMessages = [];
 
-// submit form after press "ENTER"
-function submit_handler(form) {
-  return false;
-}
-
 function setupMsgScrollHandler() {
   var msgWindow = $('.col-md-8 .list-group.pre-scrollable');
   var msgList = $('#messages-list');

@@ -75,7 +75,7 @@
                 </div>
 
                 <div><img src="quickblox/images/ajax-loader.gif" class="load-msg"></div>
-                <form class="form-inline" role="form" method="POST" action="" onsubmit="return submit_handler(this)">
+                <form class="form-inline" role="form" method="POST" action="" onsubmit="return false">
                   <div class="input-group">
                     <span class="input-group-btn input-group-btn_change_load">
   	                  <input id="load-img" type="file">
