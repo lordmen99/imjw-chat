@@ -145,7 +145,7 @@ function retrieveChatMessages(dialog, beforeDateSent){
 
 
 // sending messages after confirmation
-function clickSendMessage() {
+function clickSendMessage() {    
     var currentText = $('#message_text').val().trim();
 
     if (!currentText.length){
