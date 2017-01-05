@@ -12,6 +12,17 @@
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="glyphicon glyphicon-cog"></span>
+                </button>
+
+                <a href="https://quickblox.com/developers/Chat">
+                    <img src="quickblox/images/logo-quickblox.png" id="logo">
+                </a>
+            </div>
+
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active">
@@ -23,7 +34,15 @@
                     <li>
                         <a href="#" onclick="showDialogInfoPopup()">Dialog info</a>
                     </li>
+                    <li>
+                        <span class="j-version ver"></span>
+                    </li>
                 </ul>
+
+                <a href="https://github.com/QuickBlox/quickblox-javascript-sdk/tree/gh-pages/samples/chat"
+                	style="position:absolute;top:20px;right:12%;font-size:0.85em;color:grey;">
+                    View source on GitHub
+                </a>
             </div><!--/.nav-collapse -->
         </div>
     </div>
@@ -72,6 +91,10 @@
 
                     <span class="input-group-btn" style="width: 100%;">
   	                 <input type="text" class="form-control" id="message_text" placeholder="Enter message">
+                    </span>
+
+                    <span class="input-group-btn">
+  	                   <button  type="submit" id="send_btn" class="btn btn-default" onclick="clickSendMessage()">Send</button>
                     </span>
                     </div>
                   <img src="quickblox/images/ajax-loader.gif" id="progress">
