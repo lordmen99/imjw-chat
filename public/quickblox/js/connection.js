@@ -41,9 +41,7 @@ function connectToChat(user) {
             QB.chat.connect({userId: user.id, password: user.pass}, function(err, roster) {
                 if (err) {
                     console.log(err);
-                } else {
-                    // setup scroll stickerpipe module
-                    setupStickerPipe();
+                } else {                    
 
                     retrieveChatDialogs();
 

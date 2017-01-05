@@ -5,24 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>QuickBlox JavaScript Chat code sample</title>
     <link rel="shortcut icon" href="https://quickblox.com/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="quickblox/libs/stickerpipe/css/stickerpipe.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">    
     <link rel="stylesheet" href="quickblox/css/style.css">
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="glyphicon glyphicon-cog"></span>
-                </button>
-
-                <a href="https://quickblox.com/developers/Chat">
-                    <img src="quickblox/images/logo-quickblox.png" id="logo">
-                </a>
-            </div>
-
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active">
@@ -34,15 +22,9 @@
                     <li>
                         <a href="#" onclick="showDialogInfoPopup()">Dialog info</a>
                     </li>
-                    <li>
-                        <span class="j-version ver"></span>
-                    </li>
+
                 </ul>
 
-                <a href="https://github.com/QuickBlox/quickblox-javascript-sdk/tree/gh-pages/samples/chat"
-                	style="position:absolute;top:20px;right:12%;font-size:0.85em;color:grey;">
-                    View source on GitHub
-                </a>
             </div><!--/.nav-collapse -->
         </div>
     </div>
@@ -82,12 +64,7 @@
   	                <button type="button" id="attach_btn" class="btn btn-default" onclick="$('#load-img').click();">
   		              <i class="icon-photo"></i>
   	                </button>
-                    </span>
-                    <span class="input-group-btn input-group-btn_change_load">
-  	                <button type="button" id="stickers_btn" class="btn btn-default" onclick="">
-  		              <i class="icon-sticker"></i>
-  	                </button>
-                    </span>
+                    </span>                    
 
                     <span class="input-group-btn" style="width: 100%;">
   	                 <input type="text" class="form-control" id="message_text" placeholder="Enter message">
@@ -177,13 +154,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.0/jquery.nicescroll.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.4.1/jquery.timeago.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-    <script src="quickblox/quickblox.min.js"></script>
-    <script src="quickblox/libs/stickerpipe/js/stickerpipe.js"></script>
+    <script src="quickblox/quickblox.min.js"></script>    
     <script src="quickblox/js/config.js"></script>
     <script src="quickblox/js/connection.js"></script>
-    <script src="quickblox/js/messages.js"></script>
-    <script src="quickblox/js/stickerpipe.js"></script>
+    <script src="quickblox/js/messages.js"></script>    
     <script src="quickblox/js/ui_helpers.js"></script>
     <script src="quickblox/js/dialogs.js"></script>
     <script src="quickblox/js/users.js"></script>

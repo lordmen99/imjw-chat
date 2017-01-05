@@ -198,25 +198,7 @@ input[type=file]:focus {
 	width: 24px;
 }
 
-.icon-sticker {
-	background-image: url('./../images/sticker-btn.png');
-	background-repeat: no-repeat;
-	background-size: 48px 24px;
-	background-position: 0 0;
-	display: block;
-	opacity: 0.7;
-	height: 24px;
-	width: 24px;
-}
-
-.icon-sticker.active {
-	background-position: -24px 0;
-	height: 24px;
-	width: 24px;
-}
-
-#attach_btn.btn,
-#stickers_btn.btn {
+#attach_btn.btn {
 	background: transparent !important;
 	border-radius: 0;
 	margin-right: 10px;

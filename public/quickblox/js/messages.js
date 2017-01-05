@@ -182,8 +182,7 @@ function clickSendAttachments(inputFile) {
 }
 
 // send text or attachment
-function sendMessage(text, attachmentFileId) {
-    stickerpipe.onUserMessageSent(stickerpipe.isSticker(text));
+function sendMessage(text, attachmentFileId) {    
 
     var msg = {
         type: currentDialog.type === 3 ? 'chat' : 'groupchat',
@@ -204,7 +203,7 @@ function sendMessage(text, attachmentFileId) {
         QB.chat.send(opponentId, msg);
 
         $('.list-group-item.active .list-group-item-text')
-            .text(stickerpipe.isSticker(msg.body) ? 'Sticker' : msg.body);
+            .text(msg.body);
 
         if(attachmentFileId === null){
             showMessage(currentUser.id, msg);
