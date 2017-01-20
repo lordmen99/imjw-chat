@@ -42,17 +42,13 @@
                   <h4 class="list-header-title">History</h4>
                 </div>
                 <div class="list-group pre-scrollable nice-scroll" id="dialogs-list">
-
                   <!-- list of chat dialogs will be here -->
-
                 </div>
               </div>
               <div id="mcs_container" class="col-md-8">
                 <div class="container del-style">
                   <div class="content list-group pre-scrollable nice-scroll" id="messages-list">
-
                     <!-- list of chat messages will be here -->
-
                   </div>
                 </div>
 
